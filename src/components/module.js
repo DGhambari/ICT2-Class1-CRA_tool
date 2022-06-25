@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 
 const Module = (props) => {
   return (
@@ -7,7 +7,7 @@ const Module = (props) => {
       <td>{props.description.noLectures}</td>
       <td>{props.description.noPracticals}</td>
     </tr>
-  )
-}
+  );
+};
 
-export default Module
+export default Module;
